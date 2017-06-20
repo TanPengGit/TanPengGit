@@ -1,0 +1,18 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.tp.maill.config.database.DataSourceConfiguration",
+      "name": "druid.master",
+      "sourceMethod": "public javax.sql.DataSource masterDataSource() throws java.sql.SQLException",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.tp.maill.config.database.DataSourceConfiguration",
+      "name": "druid.slave",
+      "sourceMethod": "public javax.sql.DataSource slaveDataSource() ",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}
