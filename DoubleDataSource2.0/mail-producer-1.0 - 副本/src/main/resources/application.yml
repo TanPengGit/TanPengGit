@@ -10,42 +10,7 @@ spring:
   http: 
     encoding:
       charset: UTF-8 
- # jackson:
-    ##若有Data类型则自动转为此格式
-  #  date-format: yyyy-MM-dd HH:mm:ss
-    ##时间区
- #   time-zone: GMT+8
-    ##过滤null  
-  #  default-property-inclusion: NON_NULL
-    #redis集群
-#  redis:   
-#    pool: 
-#      min-idle: 100
-#      max-idle: 100
-#      max-wait: -1
-#      max-active: 1000
-#    timeout: 6000  
-#    cluster: 
-#      max-redirects: 1000
-#      nodes: 
-#        - 192.168.1.115:7001  
-#        - 192.168.1.115:7002  
-#        - 192.168.1.115:7003  
-#        - 192.168.1.115:7004  
-#        - 192.168.1.115:7005  
-#        - 192.168.1.115:7006  
 
-#  mail:
-#    default-encoding: UTF-8
-#    host: smtp.163.com   
-#    port: 25
-#    username: baihezhuo@163.com
-#    password: baihezhuo17171
-#    properties: 
-#      mail:
-#        smtp: 
-#          auth: true
-#          timeout: 30000
                 
 druid: 
     type: com.alibaba.druid.pool.DruidDataSource
@@ -100,18 +65,9 @@ logging:
     level:
         tk.mybatis: TRACE  
         
-#mapper: 
-#    mappers:
-#        - com.xxx.xxx.BaseMapper
-#    not-empty: false
-#    identity: MYSQL
 
-#分页
-pagehelper: 
-    helperDialect: mysql
-    reasonable: true
-    supportMethodsArguments: true
-    params: count=countSql      
+
+
       
       
      
